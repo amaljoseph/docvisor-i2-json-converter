@@ -1,0 +1,12 @@
+{
+    "metaData":{
+        "pageLayout": "Fully Automatic Region Parsing",
+        "pageName": "I2 Dataset",
+        "dataPaths": {
+            "test":"example/jsonData/FullyAutomatic/I2/I2_TEST_converted.json"
+        },
+        "outputMasks": {"groundTruth":1,"modelPrediction":1},
+        "defaultDisplayed": ["groundTruth-mask","modelPrediction-mask"]
+
+    }
+}
